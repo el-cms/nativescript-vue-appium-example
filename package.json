@@ -47,6 +47,10 @@
     "webpack-cli": "^3.1.0"
   },
   "scripts": {
-    "e2e": "mocha --opts ./e2e/config/mocha.opts"
+    "build.android": "tns build android --bundle",
+    "build.ios": "tns build ios --bundle",
+    "e2e": "mocha --opts ./e2e/config/mocha.opts",
+    "e2e.android19": "npm run e2e -- --runType android19 --reuseDevice",
+    "e2e.ios11": "npm run e2e -- --runType sim.iPhone8.iOS11.3 --reuseDevice"
   }
 }

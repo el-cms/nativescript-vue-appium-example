@@ -1,0 +1,28 @@
+{
+  "android19": {
+    "platformName": "Android",
+    "platformVersion": "4.4",
+    "deviceName": "Nexus_5X_API_19_x86",
+    "noReset": false,
+    "appPackage": "org.nativescript.application",
+    "appActivity": "com.tns.NativeScriptActivity",
+    "app": ""
+  },
+  "ios-simulator103iPhone6": {
+    "platformName": "iOS",
+    "platformVersion": "10.3",
+    "deviceName": "iPhone Simulator",
+    "bundleId": "org.nativescript.application",
+    "app": ""
+  },
+  "sim.iPhone8.iOS11.3": {
+    "platformName": "iOS",
+    "platformVersion": "11.3",
+    "deviceName": "iPhone 8",
+    "appiumVersion": "1.8.1",
+    "bundleId": "org.nativescript.application",
+    "noReset": true,
+    "fullReset": false,
+    "app": ""
+  }
+}
