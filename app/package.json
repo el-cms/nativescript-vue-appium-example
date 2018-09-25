@@ -1,0 +1,8 @@
+{
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
+  "main": "main",
+  "name": "ns-vue-appium-example",
+  "version": "1.0.0"
+}
