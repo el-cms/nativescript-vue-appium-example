@@ -39,7 +39,7 @@ e2e
 ### `appium.capabilities.json`
 It's a file you'll have to edit to fit your current setup. There are 3 sections
 in it for now:
-```json
+```text
 {
   // This is a configuration section, you have to reference it when you 
   // run the suites: it tells Appium how the target is configured
