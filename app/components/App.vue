@@ -1,9 +1,11 @@
 <template>
     <Page>
-        <ActionBar title="Welcome to NativeScript-Vue!"/>
-        <GridLayout colums="*" rows="*">
-            <Label class="message" :text="msg" col="0" row="0"/>
-        </GridLayout>
+        <ActionBar :title="msg"/>
+        <StackLayout orientation="vertical">
+            <Button automationText="mainMenuCatsButton" text="Cats"/>
+            <Button automationText="mainMenuDogsButton" text="Dogs"/>
+            <Button automationText="mainMenuCaribousButton" text="Caribous"/>
+        </StackLayout>
     </Page>
 </template>
 
